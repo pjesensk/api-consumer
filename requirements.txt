@@ -1,0 +1,7 @@
+requests
+python-dotenv
+pandas
+numpy
+hvac
+jinja2
+cryptography
