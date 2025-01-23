@@ -1,5 +1,5 @@
 import json
-from apiparent import APIParent
+from apiconsumer.apiparent import APIParent
 import pandas as pd
 
 class Sonar(APIParent):

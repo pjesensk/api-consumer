@@ -1,6 +1,6 @@
 import requests
 import json
-from apiparent import APIParent
+from apiconsumer.apiparent import APIParent
 
 class ConfluenceApi(APIParent):
     def __init__(self, hostname, auth_token):

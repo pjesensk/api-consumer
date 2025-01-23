@@ -2,7 +2,7 @@ import requests
 import json
 import re
 import pandas as pd
-from apiparent import APIParent
+from apiconsumer.apiparent import APIParent
 
 class JenkinsApi(APIParent):
     df = pd.DataFrame()

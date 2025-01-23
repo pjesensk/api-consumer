@@ -1,6 +1,6 @@
 import json
 import pandas as pd
-from apiparent import APIParent
+from apiconsumer.apiparent import APIParent
 
 class SysDig(APIParent):
     df = pd.DataFrame()

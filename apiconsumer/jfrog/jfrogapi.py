@@ -1,7 +1,7 @@
 import requests
 import json
 import re
-from apiparent import APIParent
+from apiconsumer.apiparent import APIParent
 
 class JFrogAPI(APIParent):
     def __init__(self, hostname, username, token):

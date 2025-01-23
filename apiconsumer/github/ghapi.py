@@ -1,7 +1,7 @@
 import requests
 import json
 import re
-from apiparent import APIParent
+from apiconsumer.apiparent import APIParent
 
 class GHApi(APIParent):
     def __init__(self, hostname, github_token):
