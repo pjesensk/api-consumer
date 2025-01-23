@@ -10,7 +10,7 @@ setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     author='Pavol Jesensky',
-    author_email='pjesensky@gmail.com,
+    author_email='pjesensky@gmail.com',
     url='https://github.com/pjesensk/api-consumer.git', 
     packages=find_packages(), 
     install_requires=[ 
