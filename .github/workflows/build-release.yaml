@@ -29,7 +29,7 @@ jobs:
 
       - name: Create a GitHub Release
         id: create_release
-        uses: softprops/action-gh-release@v2
+        uses: softprops/action-gh-release@v2.2.1
         env:
           GITHUB_TOKEN: ${{ secrets.AUTH_GITHUB_TOKEN }}
         with:
@@ -37,6 +37,8 @@ jobs:
           tag_name: latest
           draft: false
           prerelease: false
+          make_latest: true
+          body: Latest Release
           name: Latest Release
           files: |
             dist/**.*
