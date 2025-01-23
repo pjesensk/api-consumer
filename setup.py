@@ -20,7 +20,8 @@ setup(
         'numpy',
         'hvac',
         'jinja2',
-        'cryptography'
+        'cryptography',
+        'wheel'
     ],
     classifiers=[ 
         "Programming Language :: Python :: 3",
