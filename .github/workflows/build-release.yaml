@@ -39,4 +39,4 @@ jobs:
           prerelease: false
           name: Latest Release
           files: |
-            dist/*
+            dist/**.*
