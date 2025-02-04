@@ -5,3 +5,4 @@ numpy
 hvac
 jinja2
 cryptography
+kubernetes
